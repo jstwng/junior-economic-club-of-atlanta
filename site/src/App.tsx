@@ -19,7 +19,7 @@ function App() {
       <div className="bar">
         <Bar />
       </div>
-      <div style={{ marginBottom: "40px" }}></div>
+      <div style={{ marginBottom: "50px" }}></div>
       <div className="container">
         <Landing />
         <div style={{ marginBottom: "40px" }}></div>

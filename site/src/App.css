@@ -1,6 +1,6 @@
 body {
   background: linear-gradient(#000528, #737373);
-  height: 100vh;
+  height: 150vh;
 }
 
 h1 {
@@ -37,6 +37,15 @@ h3 {
   width: 250px;
 }
 
+.roundtable {
+  width: 80%;
+  margin-top: 30px;
+}
+
+.imageContainer {
+  margin-left: 10%;
+}
+
 .bar {
   position: absolute; 
   top: 16px;     
@@ -56,6 +65,7 @@ h3 {
 .container {
   width: 1000px;
   margin: auto;
+  padding-left: 5%;
 }
 
 .about {
