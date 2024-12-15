@@ -3,6 +3,9 @@ import logo from "./assets/logo.png";
 import Bar from "./Bar.tsx";
 import About from "./About.tsx";
 import Carousel from "./Carousel.tsx";
+import Catalyst from "./Catalyst.tsx";
+import FAQ from "./FAQ.tsx";
+import Footer from "./Footer.tsx";
 
 import "./App.css";
 
@@ -23,8 +26,10 @@ function App() {
       <div style={{ marginBottom: "50px" }}></div>
       <div className="myContainer">
         <Carousel />
-        <div style={{ marginBottom: "40px" }}></div>
         <About />
+        <Catalyst />
+        <FAQ />
+        <Footer />
       </div>
     </>
   );
