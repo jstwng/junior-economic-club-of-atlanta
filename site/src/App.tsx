@@ -1,8 +1,9 @@
 import { useState } from "react";
 import logo from "./assets/logo.png";
 import Bar from "./Bar.tsx";
-import Landing from "./Landing.tsx";
 import About from "./About.tsx";
+import Carousel from "./Carousel.tsx";
+
 import "./App.css";
 
 function App() {
@@ -20,8 +21,8 @@ function App() {
         <Bar />
       </div>
       <div style={{ marginBottom: "50px" }}></div>
-      <div className="container">
-        <Landing />
+      <div className="myContainer">
+        <Carousel />
         <div style={{ marginBottom: "40px" }}></div>
         <About />
       </div>
