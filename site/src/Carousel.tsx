@@ -121,7 +121,7 @@ function Carousel() {
           <span className="visually-hidden">Next</span>
         </button>
       </div>
-      <div style={{ marginBottom: "40px" }}></div>
+      <div style={{ marginBottom: "80px" }}></div>
     </>
   );
 }

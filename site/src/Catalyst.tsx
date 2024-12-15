@@ -30,7 +30,7 @@ function Catalyst() {
           </h2>
         </div>
       </div>
-      <div style={{ marginBottom: "40px" }}></div>
+      <div style={{ marginBottom: "80px" }}></div>
     </>
   );
 }

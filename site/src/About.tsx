@@ -1,3 +1,14 @@
+import partnerOne from "./assets/partnerOne.png";
+import partnerTwo from "./assets/partnerTwo.png";
+import partnerThree from "./assets/partnerThree.png";
+import partnerFour from "./assets/partnerFour.png";
+import partnerFive from "./assets/partnerFive.png";
+import partnerSix from "./assets/partnerSix.png";
+import partnerSeven from "./assets/partnerSeven.png";
+import partnerEight from "./assets/partnerEight.png";
+import partnerNine from "./assets/partnerNine.png";
+import partnerTen from "./assets/partnerTen.png";
+
 function About() {
   return (
     <>
@@ -48,12 +59,129 @@ function About() {
           </h3>
         </div>
       </div>
+      <h2
+        style={{
+          lineHeight: "100%",
+          paddingTop: "16px",
+          paddingBottom: "20px",
+        }}
+      >
+        Our Corporate Sponsor and Past Partners
+      </h2>
       <div className="about">
-        <div className="aboutComponent">
-          <h2 style={{ lineHeight: "100%" }}>Our Partners and Sponsors</h2>
-        </div>
+        <a
+          href="https://www.invesco.com/us/en/Individual-investor.html"
+          target="_blank"
+        >
+          <div className="sponsorImage">
+            <img
+              src={partnerOne}
+              style={{ display: "inline", width: "180px" }}
+              alt="Logo"
+              className="logo"
+            />
+          </div>
+        </a>
+
+        <a href="https://www.atlantaga.gov/" target="_blank">
+          <div className="sponsorImage">
+            <img
+              src={partnerTwo}
+              style={{ display: "inline", width: "180px" }}
+              alt="Logo"
+              className="logo"
+            />
+          </div>
+        </a>
+
+        <a href="https://www.atlantafed.org/" target="_blank">
+          <div className="sponsorImage">
+            <img
+              src={partnerThree}
+              style={{ display: "inline", width: "180px" }}
+              alt="Logo"
+              className="logo"
+            />
+          </div>
+        </a>
+
+        <a href="https://www.emory.edu/home/index.html" target="_blank">
+          <div className="sponsorImage">
+            <img
+              src={partnerFour}
+              style={{ display: "inline", width: "180px" }}
+              alt="Logo"
+              className="logo"
+            />
+          </div>
+        </a>
+
+        <a href="https://www.wellsfargo.com/" target="_blank">
+          <div className="sponsorImage">
+            <img
+              src={partnerFive}
+              style={{ display: "inline", width: "180px" }}
+              alt="Logo"
+              className="logo"
+            />
+          </div>
+        </a>
       </div>
-      <div style={{ marginBottom: "40px" }}></div>
+      <div style={{ marginBottom: "10px" }}></div>
+      <div className="about">
+        <a href="https://www.gatech.edu/" target="_blank">
+          <div className="sponsorImage">
+            <img
+              src={partnerSix}
+              style={{ display: "inline", width: "180px" }}
+              alt="Logo"
+              className="logo"
+            />
+          </div>
+        </a>
+
+        <a href="https://www.legis.ga.gov/house" target="_blank">
+          <div className="sponsorImage">
+            <img
+              src={partnerSeven}
+              style={{ display: "inline", width: "180px" }}
+              alt="Logo"
+              className="logo"
+            />
+          </div>
+        </a>
+        <a href="https://www.atlantaventures.com/" target="_blank">
+          <div className="sponsorImage">
+            <img
+              src={partnerEight}
+              style={{ display: "inline", width: "180px" }}
+              alt="Logo"
+              className="logo"
+            />
+          </div>
+        </a>
+        <a href="https://www.equifax.com/" target="_blank">
+          <div className="sponsorImage">
+            <img
+              src={partnerNine}
+              style={{ display: "inline", width: "180px" }}
+              alt="Logo"
+              className="logo"
+            />
+          </div>
+        </a>
+        <a href="https://www.janney.com/" target="_blank">
+          <div className="sponsorImage">
+            <img
+              src={partnerTen}
+              style={{ display: "inline", width: "180px" }}
+              alt="Logo"
+              className="logo"
+            />
+          </div>
+        </a>
+      </div>
+      <div style={{ marginBottom: "80px" }}></div>
     </>
   );
 }

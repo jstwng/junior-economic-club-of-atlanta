@@ -104,6 +104,14 @@ h4 {
   margin-right: 24px;
 }
 
+.sponsorImage {
+  width: fit-content;
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 1px;
+  border-color: white;
+}
+
 
 
 
