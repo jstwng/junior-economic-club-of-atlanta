@@ -82,10 +82,22 @@ function About() {
           <div className="sponsorImage">
             <img
               src={partnerOne}
-              style={{ display: "inline", width: "180px" }}
+              style={{
+                display: "inline",
+                width: "180px",
+                height: "160px",
+              }}
               alt="Logo"
               className="logo"
             />
+            <h3
+              style={{
+                display: "inline",
+                fontWeight: "100",
+              }}
+            >
+              Invesco
+            </h3>
           </div>
         </a>
 
@@ -93,10 +105,19 @@ function About() {
           <div className="sponsorImage">
             <img
               src={partnerTwo}
-              style={{ display: "inline", width: "180px" }}
+              style={{ display: "inline", width: "180px", height: "160px" }}
               alt="Logo"
               className="logo"
             />
+            <h3
+              style={{
+                display: "inline",
+                fontWeight: "100",
+                maxWidth: "160px",
+              }}
+            >
+              City of Atlanta Department of Finance
+            </h3>
           </div>
         </a>
 
@@ -104,10 +125,19 @@ function About() {
           <div className="sponsorImage">
             <img
               src={partnerThree}
-              style={{ display: "inline", width: "180px" }}
+              style={{ display: "inline", width: "180px", height: "160px" }}
               alt="Logo"
               className="logo"
             />
+            <h3
+              style={{
+                display: "inline",
+                fontWeight: "100",
+                maxWidth: "160px",
+              }}
+            >
+              Federal Reserve Bank of Atlanta
+            </h3>
           </div>
         </a>
 
@@ -115,10 +145,18 @@ function About() {
           <div className="sponsorImage">
             <img
               src={partnerFour}
-              style={{ display: "inline", width: "180px" }}
+              style={{ display: "inline", width: "180px", height: "160px" }}
               alt="Logo"
               className="logo"
             />
+            <h3
+              style={{
+                display: "inline",
+                fontWeight: "100",
+              }}
+            >
+              Emory University
+            </h3>
           </div>
         </a>
 
@@ -126,10 +164,18 @@ function About() {
           <div className="sponsorImage">
             <img
               src={partnerFive}
-              style={{ display: "inline", width: "180px" }}
+              style={{ display: "inline", width: "180px", height: "160px" }}
               alt="Logo"
               className="logo"
             />
+            <h3
+              style={{
+                display: "inline",
+                fontWeight: "100",
+              }}
+            >
+              Wells Fargo
+            </h3>
           </div>
         </a>
       </div>
@@ -139,10 +185,19 @@ function About() {
           <div className="sponsorImage">
             <img
               src={partnerSix}
-              style={{ display: "inline", width: "180px" }}
+              style={{ display: "inline", width: "180px", height: "160px" }}
               alt="Logo"
               className="logo"
             />
+            <h3
+              style={{
+                display: "inline",
+                fontWeight: "100",
+                maxWidth: "160px",
+              }}
+            >
+              Georgia Institute of Technology
+            </h3>
           </div>
         </a>
 
@@ -150,40 +205,73 @@ function About() {
           <div className="sponsorImage">
             <img
               src={partnerSeven}
-              style={{ display: "inline", width: "180px" }}
+              style={{ display: "inline", width: "180px", height: "160px" }}
               alt="Logo"
               className="logo"
             />
+            <h3
+              style={{
+                display: "inline",
+                fontWeight: "100",
+                maxWidth: "160px",
+              }}
+            >
+              Georgia House of Representatives
+            </h3>
           </div>
         </a>
         <a href="https://www.atlantaventures.com/" target="_blank">
           <div className="sponsorImage">
             <img
               src={partnerEight}
-              style={{ display: "inline", width: "180px" }}
+              style={{ display: "inline", width: "180px", height: "160px" }}
               alt="Logo"
               className="logo"
             />
+            <h3
+              style={{
+                display: "inline",
+                fontWeight: "100",
+              }}
+            >
+              Atlanta Ventures
+            </h3>
           </div>
         </a>
         <a href="https://www.equifax.com/" target="_blank">
           <div className="sponsorImage">
             <img
               src={partnerNine}
-              style={{ display: "inline", width: "180px" }}
+              style={{ display: "inline", width: "180px", height: "160px" }}
               alt="Logo"
               className="logo"
             />
+            <h3
+              style={{
+                display: "inline",
+                fontWeight: "100",
+              }}
+            >
+              Equifax
+            </h3>
           </div>
         </a>
         <a href="https://www.janney.com/" target="_blank">
           <div className="sponsorImage">
             <img
               src={partnerTen}
-              style={{ display: "inline", width: "180px" }}
+              style={{ display: "inline", width: "180px", height: "160px" }}
               alt="Logo"
               className="logo"
             />
+            <h3
+              style={{
+                display: "inline",
+                fontWeight: "100",
+              }}
+            >
+              Janney Montgomery Scott
+            </h3>
           </div>
         </a>
       </div>

@@ -35,7 +35,7 @@ createRoot(document.getElementById("root")!).render(
           name="Neal Karani"
           position="President, '24-25"
           additional="Stanford University"
-          site="google.com"
+          site="https://www.linkedin.com/in/jstwng/"
         />
         <Profile
           imageSrc={Sam}
