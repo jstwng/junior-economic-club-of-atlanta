@@ -28,6 +28,7 @@ function About() {
             and organizes regular programming for the Club's members.
           </h3>
         </div>
+
         <div className="aboutComponent">
           <h2 style={{ lineHeight: "100%" }}>Board of Advisors</h2>
           <h3>
@@ -37,13 +38,16 @@ function About() {
         </div>
       </div>
       <div className="about">
-        <div className="aboutComponent">
-          <h2 style={{ lineHeight: "100%" }}>Alumni Network</h2>
-          <h3>
-            Junior Economic Club of Atlanta members who have graduated high
-            school and are now in college or starting their careers.
-          </h3>
-        </div>
+        <a href="alumni.html">
+          <div className="aboutComponent">
+            <h2 style={{ lineHeight: "100%" }}>Alumni Network</h2>
+            <h3>
+              Junior Economic Club of Atlanta members who have graduated high
+              school and are now in college or starting their careers.
+            </h3>
+          </div>
+        </a>
+
         <div className="aboutComponent">
           <h2 style={{ lineHeight: "100%" }}>The Catalyst Program</h2>
           <h3>

@@ -2,7 +2,11 @@ body {
   background: 
     linear-gradient( #000528, #383838);
   background-attachment: fixed;  
-  height: 200vh;
+  height: auto;
+}
+
+a {
+  text-decoration: none !important;
 }
 
 h1 {
@@ -35,6 +39,16 @@ h3 {
   color: white !important;
 }
 
+.profile-text {
+  font-family: TT Commons, HelveticaNeueLTStd-Roman, Helvetica, Arial, sans-serif !important;
+  font-size: 14px;
+  line-height: 140%;
+  margin-top: 6px;
+  margin-bottom: 0px;
+  font-weight: 100;
+  color: white;
+}
+
 h4 {
   font-family: Signifier, Chronicle Display A, Chronicle Display B;
   font-size: 70px !important;
@@ -43,6 +57,16 @@ h4 {
   margin-top: 0px;
   margin-bottom: 0px;
   color: #af8731 !important; 
+}
+
+h5 {
+  font-family: TT Commons, HelveticaNeueLTStd-Roman, Helvetica, Arial, sans-serif !important;
+  font-size: 14px !important;
+  line-height: 140% !important;
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+  font-weight: 100 !important;
+  color: white !important;
 }
 
 .logo {
@@ -112,6 +136,9 @@ h4 {
   border-color: white;
 }
 
+.profile-tab {
+  width: 200px;
+}
 
 
 
