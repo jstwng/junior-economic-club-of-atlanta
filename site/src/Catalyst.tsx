@@ -30,6 +30,11 @@ function Catalyst() {
           </h2>
         </div>
       </div>
+      <h2 style={{ fontWeight: "100", paddingTop: "16px" }}>
+        Note: Applications will open in August 2025 for the 2025-2026 school
+        year and are only open to non-senior Junior Economic Club of Atlanta
+        members in good standing.
+      </h2>
       <div style={{ marginBottom: "80px" }}></div>
     </>
   );

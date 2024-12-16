@@ -1,6 +1,8 @@
 import one from "./assets/1.png";
 import two from "./assets/2.png";
 import three from "./assets/3.png";
+import four from "./assets/4.png";
+import five from "./assets/5.png";
 
 function Carousel() {
   return (
@@ -30,6 +32,18 @@ function Carousel() {
             data-bs-target="#myCarousel"
             data-bs-slide-to="2"
             aria-label="Slide 3"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="4"
+            aria-label="Slide 5"
           ></button>
         </div>
         <div className="carousel-inner">
@@ -90,6 +104,47 @@ function Carousel() {
                 <p>
                   <a className="btn btn-lg btn-primary" href="#">
                     Board of Directors
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="carousel-item">
+            <img
+              src={four}
+              style={{ display: "inline", marginLeft: "10px", width: "100%" }}
+              alt="JEC Atlanta Economic Roundtable"
+              className="roundtable"
+            />
+            <div className="container">
+              <div className="carousel-caption text-start">
+                <h1>
+                  Learn about career opportunities from the experts themselves.
+                </h1>
+                <p>
+                  <a className="btn btn-lg btn-primary" href="#">
+                    Follow Us on Social Media!
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="carousel-item">
+            <img
+              src={five}
+              style={{ display: "inline", marginLeft: "10px", width: "100%" }}
+              alt="JEC Atlanta Economic Roundtable"
+              className="roundtable"
+            />
+            <div className="container">
+              <div className="carousel-caption text-end">
+                <h1 style={{ lineHeight: "1" }}>
+                  Attend roundtable discussions with Economics professors and
+                  collaborate with them on research.
+                </h1>
+                <p>
+                  <a className="btn btn-lg btn-primary" href="#">
+                    Atlanta Junior Economist
                   </a>
                 </p>
               </div>

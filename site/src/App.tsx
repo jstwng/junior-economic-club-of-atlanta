@@ -29,6 +29,7 @@ function App() {
         <About />
         <Catalyst />
         <FAQ />
+        <div style={{ height: "100px" }}></div>
         <Footer />
       </div>
     </>

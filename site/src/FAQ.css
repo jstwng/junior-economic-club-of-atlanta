@@ -1,0 +1,74 @@
+/* General Accordion Styling */
+.accordion {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Accordion Item Styling */
+  .accordion-item {
+    border: none;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Last item: remove the bottom border */
+  .accordion-item:last-child {
+    border-bottom: none;
+  }
+  
+  /* Accordion Header Styling */
+  .accordion-header {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #333;
+    padding: 10px;
+  }
+  
+  /* Accordion Button Default Styling */
+  .accordion-button {
+    color: #007bff;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    padding: 15px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  /* Accordion Button Hover/Focus Styling */
+  .accordion-button:hover,
+  .accordion-button:focus {
+    color: #0056b3;
+    outline: none;
+  }
+  
+  /* Accordion Button Collapsed State */
+  .accordion-button.collapsed {
+    color: #444;
+    border: none;
+  }
+  
+  /* Accordion Collapse (Body) Styling */
+  .accordion-collapse {
+    transition: all 0.4s ease-in-out;
+  }
+  
+  /* Accordion Body Content Styling */
+  .accordion-body {
+    padding: 15px 20px;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+    border-top: 1px solid #ddd;
+  }
+  
+  /* Code Element Styling */
+  .accordion-body code {
+    color: #d63384;
+    padding: 2px 4px;
+    border-radius: 4px;
+    font-size: 0.9rem;
+  }
+  
