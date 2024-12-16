@@ -21,13 +21,15 @@ function About() {
             9-12) in the Atlanta area may apply. Applications are competitive.
           </h3>
         </div>
-        <div className="aboutComponent">
-          <h2 style={{ lineHeight: "100%" }}>Board of Directors</h2>
-          <h3>
-            Our student-led Board of Directors liases with the National Board
-            and organizes regular programming for the Club's members.
-          </h3>
-        </div>
+        <a href="board-of-directors.html">
+          <div className="aboutComponent">
+            <h2 style={{ lineHeight: "100%" }}>Board of Directors</h2>
+            <h3>
+              Our student-led Board of Directors liases with the National Board
+              and organizes regular programming for the Club's members.
+            </h3>
+          </div>
+        </a>
 
         <div className="aboutComponent">
           <h2 style={{ lineHeight: "100%" }}>Board of Advisors</h2>

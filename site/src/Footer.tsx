@@ -16,7 +16,7 @@ function Footer() {
             paddingBottom: "40px",
           }}
         >
-          Made with 🤍 by{" "}
+          Made by{" "}
           <a
             href="https://jstwng.com/"
             target="_blank"
