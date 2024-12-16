@@ -16,6 +16,14 @@ import Rachna from "./assets/rachna.jpeg";
 import Michael from "./assets/michael.jpg";
 import Rohan from "./assets/rohan.png";
 import Roy from "./assets/roy.jpeg";
+import Shivani from "./assets/shivani.jpeg";
+import Sarah from "./assets/sarah.jpeg";
+import Margaret from "./assets/margaret.jpeg";
+import Young from "./assets/young.jpeg";
+import Anish from "./assets/anish.jpeg";
+import Shaomin from "./assets/shaomin.jpeg";
+import Sanjar from "./assets/sanjar.jpeg";
+import Vasu from "./assets/vasu.jpeg";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
@@ -89,6 +97,66 @@ createRoot(document.getElementById("root")!).render(
           position="President, '20-21"
           additional="University of Georgia"
           site="https://www.linkedin.com/in/rohan-movva/"
+        />
+      </div>
+      <div className="about" style={{ paddingTop: "20px" }}>
+        <Profile
+          imageSrc={Anish}
+          name="Anish Madireddy"
+          position="Member, '23-24"
+          additional="Brown University"
+          site="https://www.linkedin.com/in/anish-madireddy-205874244/"
+        />
+        <Profile
+          imageSrc={Shaomin}
+          name="Shaomin Kee"
+          position="Member, '23-24"
+          additional="Wharton School of Business"
+          site="https://www.linkedin.com/in/shaomin-kee-467909224/"
+        />
+        <Profile
+          imageSrc={Sanjar}
+          name="Sanjar Zaman"
+          position="Member, '23-24"
+          additional="Columbia University"
+          site="https://www.linkedin.com/in/sanjar-zaman/"
+        />
+        <Profile
+          imageSrc={Vasu}
+          name="Vasu Dwivedi"
+          position="Member, '23-24"
+          additional="University of Pennsylvania"
+          site="https://www.linkedin.com/in/suyash-vasu-dwivedi/"
+        />
+      </div>
+      <div className="about" style={{ paddingTop: "20px" }}>
+        <Profile
+          imageSrc={Sarah}
+          name="Sarah Bellagat"
+          position="Member, '22-23"
+          additional="Harvard University"
+          site="https://www.linkedin.com/in/sarah-bellagat/"
+        />
+        <Profile
+          imageSrc={Margaret}
+          name="Margaret Song"
+          position="Member, '21-22"
+          additional="Georgia Institute of Technology"
+          site="https://www.linkedin.com/in/margaretasong/"
+        />
+        <Profile
+          imageSrc={Young}
+          name="Young Cho"
+          position="Member, '21-22"
+          additional="Georgia Institute of Technology"
+          site="https://www.linkedin.com/in/youngch03/"
+        />
+        <Profile
+          imageSrc={Shivani}
+          name="Shivani Desai"
+          position="Member, '20-21"
+          additional="Wharton School of Business"
+          site="https://www.linkedin.com/in/shivanidesaipage/"
         />
       </div>
     </div>
