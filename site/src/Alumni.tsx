@@ -10,8 +10,8 @@ import "./App.css";
 
 import Justin from "./assets/justin.jpg";
 import Jillian from "./assets/jillian.jpeg";
-import Iian from "./assets/iian.jpg";
-import Julian from "./assets/julian.jpg";
+import Iian from "./assets/iian.jpeg";
+import Julian from "./assets/julian.jpeg";
 import Rachna from "./assets/rachna.jpeg";
 import Michael from "./assets/michael.jpg";
 import Rohan from "./assets/rohan.png";
@@ -82,7 +82,7 @@ createRoot(document.getElementById("root")!).render(
           name="Rohan Movva"
           position="Chief Marketing Officer, '22-23"
           additional="Stanford University"
-          site="https://www.linkedin.com/in/rachna-rajesh/"
+          site="https://www.linkedin.com/in/rohan-movva/"
         />
         <Profile
           imageSrc={Roy}

@@ -18,7 +18,7 @@ class Profile extends React.Component<ProfileProps> {
         <div className="profile-tab">
           <img
             src={imageSrc}
-            style={{ width: "200px", paddingBottom: "10px" }}
+            style={{ width: "180px", paddingBottom: "10px" }}
             alt={`${name}'s profile`}
             className="profile-image"
           />

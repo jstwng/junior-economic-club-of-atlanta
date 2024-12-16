@@ -79,14 +79,19 @@ h5 {
 }
 
 .imageContainer {
-  margin-left: 10%;
+  position: relative;
+  width: 100%;
+  height: 800px;
+  overflow: hidden;
 }
 
 .bar {
-  position: absolute; 
-  top: 16px;     
-  right: 10px;  
-  padding: 10px;  
+  position: absolute; /* Position it on top of the image */
+  left: 0;
+  right: 0;
+  z-index: 3; /* Ensure it's above the image and text */
+  text-align: right;
+  color: white;
 }
 
 .bar-title {
@@ -115,10 +120,13 @@ h5 {
 
 .aboutComponent {
   width: 300px;
-  height: 100px;
-  margin-top: 16px;
-  margin-left: -4px;
-  margin-right: 24px;
+  height: 144px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.aboutComponent:hover {
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 .catalystComponent {
@@ -136,10 +144,19 @@ h5 {
   border-color: white;
 }
 
-.profile-tab {
-  width: 200px;
+.sponsorImage:hover {
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
+.profile-tab {
+  width: 200px;
+  height: 300px;
+  padding: 10px;
+}
+
+.profile-tab:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
 
 
 
@@ -205,4 +222,44 @@ h5 {
   .featurette-heading {
     margin-top: 7rem;
   }
+}
+
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between; /* Logo on left, bar on right */
+  align-items: center;
+  z-index: 3;
+}
+
+/* Container to position image and text */
+.image-container {
+  position: relative; /* Establishes a positioning context */
+  width: 100%;
+  height: 800px; /* Fixed height for cropping */
+  overflow: hidden;
+}
+
+/* Style the image */
+.cropped-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  filter: brightness(50%);
+}
+
+/* Overlay text in the center */
+.centered-text {
+  position: absolute; /* Position relative to the container */
+  top: 50%; /* Move text 50% from the top */
+  left: 50%; /* Move text 50% from the left */
+  transform: translate(-50%, -50%); /* Center the text precisely */
+  color: white; /* Text color */
+  font-size: 4rem; /* Adjust text size */
+  text-align: center;
+  z-index: 2; /* Place the text above the image */
 }

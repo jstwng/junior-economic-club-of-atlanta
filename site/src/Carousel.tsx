@@ -123,7 +123,7 @@ function Carousel() {
                 </h1>
                 <p>
                   <a className="btn btn-lg btn-primary" href="#">
-                    Follow Us on Social Media!
+                    Follow us on Social Media!
                   </a>
                 </p>
               </div>
