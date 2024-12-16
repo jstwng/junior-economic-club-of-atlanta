@@ -1,4 +1,3 @@
-import { useState } from "react";
 import logo from "./assets/logo.png";
 import Bar from "./Bar.tsx";
 import About from "./About.tsx";
@@ -10,8 +9,6 @@ import Footer from "./Footer.tsx";
 import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
       <img
@@ -30,8 +27,8 @@ function App() {
         <Catalyst />
         <FAQ />
         <div style={{ height: "100px" }}></div>
-        <Footer />
       </div>
+      <Footer />
     </>
   );
 }
