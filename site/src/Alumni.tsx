@@ -9,7 +9,7 @@ import Footer from "./Footer.tsx";
 import "./App.css";
 
 import Justin from "./assets/justin.jpg";
-import Jillian from "./assets/jillian.jpeg";
+import Jillian from "./assets/jillian.png";
 import Iian from "./assets/iian.jpeg";
 import Julian from "./assets/julian.jpeg";
 import Rachna from "./assets/rachna.jpeg";
@@ -27,16 +27,13 @@ import Vasu from "./assets/vasu.jpeg";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <img
-      src={logo}
-      style={{ display: "inline", marginLeft: "10px" }}
-      alt="Logo"
-      className="logo"
-    />
-    <div className="bar">
-      <Bar />
+    <div className="header">
+      <img src={logo} alt="Logo" className="logo" />
+      <div className="bar">
+        <Bar />
+      </div>
     </div>
-    <div style={{ marginBottom: "50px" }}></div>
+    <div style={{ marginBottom: "100px" }}></div>
     <div className="myContainer">
       <h1>Alumni Network</h1>
       <div className="about" style={{ paddingTop: "20px" }}>

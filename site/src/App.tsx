@@ -20,7 +20,7 @@ function App() {
             <Bar />
           </div>
         </div>
-        <h1 className="centered-text">JUNIOR ECONOMIC CLUB OF ATLANTA</h1>
+        <h6 className="centered-text">JUNIOR ECONOMIC CLUB OF ATLANTA</h6>
       </div>
       <div style={{ marginBottom: "20px" }}></div>
       <div className="myContainer">
@@ -28,7 +28,7 @@ function App() {
         <About />
         <Catalyst />
         <FAQ />
-        <div style={{ height: "100px" }}></div>
+        <div style={{ height: "50px" }}></div>
       </div>
       <Footer />
     </>

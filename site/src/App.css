@@ -9,6 +9,7 @@ a {
   text-decoration: none !important;
 }
 
+
 h1 {
   font-family: Signifier, Chronicle Display A, Chronicle Display B;
   font-size: 28px;
@@ -69,8 +70,17 @@ h5 {
   color: white !important;
 }
 
+h6 {
+  font-size: 60px !important;
+  font-weight: 600 !important;
+  line-height: 97% !important;
+  font-family: "Moderustic", sans-serif;
+}
+
 .logo {
   width: 250px;
+  padding-top: 8px;
+  padding-left: 10px;
 }
 
 .roundtable {
@@ -254,12 +264,12 @@ h5 {
 
 /* Overlay text in the center */
 .centered-text {
+  max-width: 700px;
   position: absolute; /* Position relative to the container */
   top: 50%; /* Move text 50% from the top */
   left: 50%; /* Move text 50% from the left */
   transform: translate(-50%, -50%); /* Center the text precisely */
   color: white; /* Text color */
-  font-size: 4rem; /* Adjust text size */
   text-align: center;
   z-index: 2; /* Place the text above the image */
 }
