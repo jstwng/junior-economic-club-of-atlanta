@@ -8,7 +8,7 @@ import Profile from "./Profile.tsx";
 import Footer from "./Footer.tsx";
 import "./App.css";
 
-import Neal from "./assets/neal.png";
+import Neal from "./assets/Neal.png";
 import Sam from "./assets/sam.png";
 import Anant from "./assets/anant.png";
 import Nevin from "./assets/nevin.png";
@@ -16,6 +16,7 @@ import Yohan from "./assets/yohan.png";
 import Vivan from "./assets/vivan.png";
 import Yinan from "./assets/yinan.png";
 import Marquitta from "./assets/marquitta.png";
+import Arhan from "./assets/arhan.png";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
@@ -86,6 +87,15 @@ createRoot(document.getElementById("root")!).render(
           name="Marquitta Moore"
           position="Director of Communications, '24-25"
           additional="Archer High School"
+          site="https://www.linkedin.com/in/jstwng/"
+        />
+      </div>
+      <div className="about">
+        <Profile
+          imageSrc={Arhan}
+          name="Arhan Barve"
+          position="Arhan Barve, '24-25"
+          additional="Arhan Barve High School"
           site="https://www.linkedin.com/in/jstwng/"
         />
       </div>
