@@ -8,7 +8,9 @@ function Bar() {
         <h1 className="bar-title">About</h1>
         <h1 className="bar-title">The Catalyst Program</h1>
         <h1 className="bar-title">FAQs</h1>
-        <h1 className="bar-title">Sign In</h1>
+        <a href="apply.html">
+          <h1 className="bar-title">Apply</h1>
+        </a>
       </div>
     </>
   );
