@@ -1,7 +1,7 @@
 function Catalyst() {
   return (
     <>
-      <h1>The Catalyst Program</h1>
+      <h1 id="catalyst">The Catalyst Program</h1>
       <h2 style={{ fontWeight: "100" }}>
         The Junior Economic Club of Atlanta's mission is to invest in Atlanta's
         future by preparing students to solve real-world economic problems in

@@ -18,18 +18,8 @@ createRoot(document.getElementById("root")!).render(
     </div>
     <div style={{ marginBottom: "100px" }}></div>
     <div className="myContainer">
-      <h1>Membership Application</h1>
+      <h1>This page is under construction.</h1>
       <div style={{ marginBottom: "20px" }}></div>
-      <iframe
-        src="https://docs.google.com/forms/d/e/1FAIpQLScPoGnBGtHOvwhHa6uIn8ybPh_-U0Iai8D7adgFGDJR2PYVCQ/viewform?embedded=true"
-        width="100%"
-        height="800px"
-        frameborder="0"
-        marginheight="0"
-        marginwidth="0"
-      >
-        Loading…
-      </iframe>
     </div>
     <Footer />
   </StrictMode>

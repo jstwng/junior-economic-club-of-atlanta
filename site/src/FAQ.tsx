@@ -1,7 +1,7 @@
 function FAQ() {
   return (
     <>
-      <h1>Frequently Asked Questions</h1>
+      <h1 id="faq">Frequently Asked Questions</h1>
       <div style={{ marginBottom: "10px" }}></div>
       <div className="accordion" id="accordionExample">
         <div className="accordion-item">

@@ -115,6 +115,7 @@ h6 {
 
 .myContainer {
   width: 1000px;
+  flex: 1;
   margin: auto;
   padding-left: 3%;
 }
@@ -165,7 +166,7 @@ h6 {
 
 .profile-tab {
   width: 200px;
-  height: 300px;
+  height: 320px;
   padding: 10px;
 }
 
@@ -277,4 +278,14 @@ h6 {
   color: white; /* Text color */
   text-align: center;
   z-index: 2; /* Place the text above the image */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensures the full height layout */
 }

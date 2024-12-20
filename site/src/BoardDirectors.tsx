@@ -16,7 +16,6 @@ import Yohan from "./assets/yohan.png";
 import Vivan from "./assets/vivan.png";
 import Yinan from "./assets/yinan.png";
 import Marquitta from "./assets/marquitta.png";
-import Arhan from "./assets/arhan.png";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
@@ -36,28 +35,28 @@ createRoot(document.getElementById("root")!).render(
           name="Neal Karani"
           position="President, '24-25"
           additional="Stanford University"
-          site="https://www.linkedin.com/in/jstwng/"
+          site="construction.html"
         />
         <Profile
           imageSrc={Sam}
           name="Samhitha Kovi"
           position="Vice President, '24-25"
           additional="Lambert High School"
-          site="https://www.linkedin.com/in/jstwng/"
+          site="construction.html"
         />
         <Profile
           imageSrc={Nevin}
           name="Nevin Kunampuram"
           position="Director of Events, '24-25"
           additional="Stanford University"
-          site="https://www.linkedin.com/in/jstwng/"
+          site="construction.html"
         />
         <Profile
           imageSrc={Anant}
           name="Anant Verma"
           position="Chief Marketing Officer, '24-25"
           additional="West Forsyth High School"
-          site="https://www.linkedin.com/in/jstwng/"
+          site="construction.html"
         />
       </div>
       <div className="about">
@@ -66,37 +65,28 @@ createRoot(document.getElementById("root")!).render(
           name="Yohan Kim"
           position="Director of Strategic Initiatives, '24-25"
           additional="Gwinnett School of Science, Math, and Technology"
-          site="https://www.linkedin.com/in/jstwng/"
+          site="construction.html"
         />
         <Profile
           imageSrc={Vivan}
           name="Vivan Kotla"
           position="Community Outreach Chair, '24-25"
           additional="Lambert High School"
-          site="https://www.linkedin.com/in/jstwng/"
+          site="construction.html"
         />
         <Profile
           imageSrc={Yinan}
           name="Yinan Chen"
           position="Director of the Junior Economist, '24-25"
           additional="Gwinnett School of Science, Math, and Technology"
-          site="https://www.linkedin.com/in/jstwng/"
+          site="construction.html"
         />
         <Profile
           imageSrc={Marquitta}
           name="Marquitta Moore"
           position="Director of Communications, '24-25"
           additional="Archer High School"
-          site="https://www.linkedin.com/in/jstwng/"
-        />
-      </div>
-      <div className="about">
-        <Profile
-          imageSrc={Arhan}
-          name="Arhan Barve"
-          position="Arhan Barve, '24-25"
-          additional="Arhan Barve High School"
-          site="https://www.linkedin.com/in/jstwng/"
+          site="construction.html"
         />
       </div>
     </div>
